@@ -1,0 +1,21 @@
+{.$DEFINE SCOP}
+{.$DEFINE CSKY}
+{$DEFINE SOC}
+
+{$IFDEF SOC}
+ {$DEFINE NLC}
+{$ENDIF}
+
+
+{$IFDEF CSKY OR SCOP}
+
+{$ENDIF}
+
+{$IFDEF NLC}
+ {$DEFINE SINGULARITY}
+ {$DEFINE PROFILES}
+ {$DEFINE USING_CRYPTO}
+ {.$DEFINE NLC_GOLD}
+{$ENDIF}
+
+{$DEFINE NEWEST_BUILD} // Shadow of Chernobyl after 3312 build, 1.0007+. Эту директиву надо включать вместе с LUAJIT

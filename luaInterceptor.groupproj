@@ -1,0 +1,180 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{95B6EEC5-0AEA-4B86-85E5-286D1E1C8E39}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="launch.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="luaicp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="luaxml.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="textcrypt.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="xrpack.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dumpdir.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="imagepack.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="xrdb.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="statproc\sproc.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="objscan\objscaner.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="utils\fsp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dlltest.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="utils\timemachine.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="launch">
+        <MSBuild Projects="launch.dproj"/>
+    </Target>
+    <Target Name="launch:Clean">
+        <MSBuild Projects="launch.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="launch:Make">
+        <MSBuild Projects="launch.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="luaicp">
+        <MSBuild Projects="luaicp.dproj"/>
+    </Target>
+    <Target Name="luaicp:Clean">
+        <MSBuild Projects="luaicp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="luaicp:Make">
+        <MSBuild Projects="luaicp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="luaxml">
+        <MSBuild Projects="luaxml.dproj"/>
+    </Target>
+    <Target Name="luaxml:Clean">
+        <MSBuild Projects="luaxml.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="luaxml:Make">
+        <MSBuild Projects="luaxml.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="textcrypt">
+        <MSBuild Projects="textcrypt.dproj"/>
+    </Target>
+    <Target Name="textcrypt:Clean">
+        <MSBuild Projects="textcrypt.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="textcrypt:Make">
+        <MSBuild Projects="textcrypt.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="xrpack">
+        <MSBuild Projects="xrpack.dproj"/>
+    </Target>
+    <Target Name="xrpack:Clean">
+        <MSBuild Projects="xrpack.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="xrpack:Make">
+        <MSBuild Projects="xrpack.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dumpdir">
+        <MSBuild Projects="dumpdir.dproj"/>
+    </Target>
+    <Target Name="dumpdir:Clean">
+        <MSBuild Projects="dumpdir.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dumpdir:Make">
+        <MSBuild Projects="dumpdir.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="imagepack">
+        <MSBuild Projects="imagepack.dproj"/>
+    </Target>
+    <Target Name="imagepack:Clean">
+        <MSBuild Projects="imagepack.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="imagepack:Make">
+        <MSBuild Projects="imagepack.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="xrdb">
+        <MSBuild Projects="xrdb.dproj"/>
+    </Target>
+    <Target Name="xrdb:Clean">
+        <MSBuild Projects="xrdb.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="xrdb:Make">
+        <MSBuild Projects="xrdb.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="sproc">
+        <MSBuild Projects="statproc\sproc.dproj"/>
+    </Target>
+    <Target Name="sproc:Clean">
+        <MSBuild Projects="statproc\sproc.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="sproc:Make">
+        <MSBuild Projects="statproc\sproc.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="objscaner">
+        <MSBuild Projects="objscan\objscaner.dproj"/>
+    </Target>
+    <Target Name="objscaner:Clean">
+        <MSBuild Projects="objscan\objscaner.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="objscaner:Make">
+        <MSBuild Projects="objscan\objscaner.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="fsp">
+        <MSBuild Projects="utils\fsp.dproj"/>
+    </Target>
+    <Target Name="fsp:Clean">
+        <MSBuild Projects="utils\fsp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="fsp:Make">
+        <MSBuild Projects="utils\fsp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dlltest">
+        <MSBuild Projects="dlltest.dproj"/>
+    </Target>
+    <Target Name="dlltest:Clean">
+        <MSBuild Projects="dlltest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dlltest:Make">
+        <MSBuild Projects="dlltest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="timemachine">
+        <MSBuild Projects="utils\timemachine.dproj"/>
+    </Target>
+    <Target Name="timemachine:Clean">
+        <MSBuild Projects="utils\timemachine.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="timemachine:Make">
+        <MSBuild Projects="utils\timemachine.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="launch;luaicp;luaxml;textcrypt;xrpack;dumpdir;imagepack;xrdb;sproc;objscaner;fsp;dlltest;timemachine"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="launch:Clean;luaicp:Clean;luaxml:Clean;textcrypt:Clean;xrpack:Clean;dumpdir:Clean;imagepack:Clean;xrdb:Clean;sproc:Clean;objscaner:Clean;fsp:Clean;dlltest:Clean;timemachine:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="launch:Make;luaicp:Make;luaxml:Make;textcrypt:Make;xrpack:Make;dumpdir:Make;imagepack:Make;xrdb:Make;sproc:Make;objscaner:Make;fsp:Make;dlltest:Make;timemachine:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

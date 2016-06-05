@@ -1,0 +1,1 @@
+{$DEFINE XRAY_LUA}
