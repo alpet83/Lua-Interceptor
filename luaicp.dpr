@@ -9887,7 +9887,7 @@ begin
 
 
 
- game_root := CorrectFilePath ( DllPath + '..\.');
+ game_root := CorrectFilePath ( DllPath + '..\');
  game_root := AddSlash (game_root);
  if not FileExists (game_root + 'fsgame.ltx') then
    begin
